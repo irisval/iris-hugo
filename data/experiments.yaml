@@ -2,7 +2,7 @@
 - id: mv
   name: Music Visualizer
   span: dev experiment
-  img: img/mv.png
+  img: /img/mv.png
   link: http://iris.codes/mvm/
   gh: https://github.com/irisval/music-visualizer
   skills:
@@ -16,7 +16,7 @@
 - id: pomodoro
   name: Pomodoro Timer
   span: dev experiment
-  img: img/pomodoro.png
+  img: /img/pomodoro.png
   link: https://github.com/irisval/pomodoro
   gh: https://github.com/irisval/pomodoro
   skills:
@@ -33,7 +33,7 @@
 - id: commentfilter
   name: Comment Filter
   span: dev experiment
-  img: img/youtube.png
+  img: /img/youtube.png
   link: https://github.com/irisval/comment-filter
   gh: https://github.com/irisval/comment-filter
   skills:
@@ -50,7 +50,7 @@
   id: nextgen
   name: Next Gen Creators
   span: dev project
-  img: img/nextgen.png
+  img: /img/nextgen.png
   link: https://blooming-ocean-62649.herokuapp.com/
   gh: https://github.com/elixirlabsinc/next-gen
   skills:
@@ -72,7 +72,7 @@
   id: hackbcaiv
   name: hackbca iv
   span: dev project
-  img: img/iv.png
+  img: /img/iv.png
   link: 2017.hackbca.com
   gh: https://github.com/hackBCA/hackbcafour
   skills:
@@ -94,7 +94,7 @@
   id: bcadash
   name: BCA Dashboard
   span: dev project
-  img: img/db.png
+  img: /img/db.png
   link: https://github.com/ATCS-BCA/bca-apps/tree/master/dashboard
   gh: https://github.com/ATCS-BCA/bca-apps/tree/master/dashboard
   skills:
@@ -111,7 +111,7 @@
 - id: ft
   name: Family Tree
   span: dev experiment
-  img: img/ft.png
+  img: /img/ft.png
   link: https://github.com/irisval/family-tree
   gh: https://github.com/irisval/family-tree
   skills:

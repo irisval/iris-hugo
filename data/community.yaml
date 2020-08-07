@@ -1,6 +1,6 @@
 ---
 - name: Medium Design Collective
-  img: img/medium.png
+  img: /img/medium.png
   link: https://cornellmedium.design/
   skills:
   - Figma
@@ -19,7 +19,7 @@
     be launching in this year's Medium Editorial and we are currently working to finish
     this app by June for Medium's annual RAW Expo.
 - name: Big Red Hacks
-  img: img/brh.png
+  img: /img/brh.png
   link: https://www.bigredhacks.com/
   skills:
   - Express
@@ -30,7 +30,7 @@
     the front end for the new organization site (to be launched within the month)
     and will be working on developing the new website for the 2020-2021 season.
 - name: Wardrobe
-  img: img/wardrobe.png
+  img: /img/wardrobe.png
   link: https://www.cornellwardrobe.com/
   skills:
   - Express
@@ -43,7 +43,7 @@
     March and as a member of the tech team, I'm working on adding additional functionality
     to the site to streamline the transaction process.
 - name: Imagine
-  img: img/imagine.png
+  img: /img/imagine.png
   link: http://imagine.hackbca.com/
   skills:
   - Event Planning
@@ -58,7 +58,7 @@
     speakers included Eliot Horowitz (CTO of MongoDB) and Anthony Peterson (CTO of
     Giphy).
 - name: Generation Coders
-  img: img/gc.png
+  img: /img/gc.png
   link: http://generationcoders.herokuapp.com/
   skills:
   - Flask
@@ -70,7 +70,7 @@
   long_description: Taught programming and website building workshops to kids at libraries
     throughout Bergen County, and developed the main website.
 - name: hackBCA iv
-  img: img/iv.png
+  img: /img/iv.png
   link: https://2017.hackbca.com
   skills:
   - Flask

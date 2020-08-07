@@ -1,6 +1,6 @@
 ---
 - employer: Cornell Phonetics Laboratory
-  img: img/cpl.png
+  img: /img/cpl.png
   link: "/work"
   skills:
   - Figma
@@ -11,7 +11,7 @@
   long_description: Currently doing a complete redesign of the current website and
     implementing both the frontend and backend with Drupal.
 - employer: Yang-Tan Institute on Employment and Disability
-  img: img/yti.jpg
+  img: /img/yti.jpg
   link: https://www.yti.cornell.edu/
   skills:
   - PHP
@@ -26,7 +26,7 @@
     roughly three hours of manual labor and a custom newsletter service with features
     such as schedule sending emails.
 - employer: CMYK
-  img: img/cmyk.png
+  img: /img/cmyk.png
   skills:
   - HTML/SASS
   - Express
@@ -42,7 +42,7 @@
     I developed an internal tool that scraped the team's slack and automated the creation
     of CMYK's weekly newsletter.
 - employer: Elixir Labs
-  img: img/elixirlabs.png
+  img: /img/elixirlabs.png
   link: http://www.elixirlabs.org/
   skills:
   - HTML/SASS
@@ -57,7 +57,7 @@
     on the website redesign for Next Gen Coders, a tech-ed nonprofit based in the
     Carbbean.
 - employer: Sooryen Technologies
-  img: img/sooryen.png
+  img: /img/sooryen.png
   link: http://www.sooryen.com/
   timeframe: 2015-2016
   short_description: Student intern

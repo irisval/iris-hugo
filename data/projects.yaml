@@ -2,7 +2,7 @@
 - id: fvso
   name: 'FVSO: Promoting News Literacy'
   span: case study
-  img: img/fvso.png
+  img: /img/fvso.png
   link: https://medium.com/@ong2/fvso-a-more-neutral-approach-to-media-3a3da6ac69e
   gh: https://github.com/Sallaa/fvso
   skills:
@@ -23,7 +23,7 @@
 - id: camlished
   name: Camlished
   span: dev project
-  img: img/camlished.png
+  img: /img/camlished.png
   link: https://github.com/irisval/camlished
   gh: https://github.com/irisval/camlished
   skills:
@@ -39,7 +39,7 @@
 - id: critterworld
   name: Critter World
   span: class final project
-  img: img/critterworld.png
+  img: /img/critterworld.png
   link: https://www.cs.cornell.edu/courses/cs2112/2019fa/project/project.pdf
   gh: https://www.cs.cornell.edu/courses/cs2112/2019fa/project/project.pdf
   skills:
@@ -60,7 +60,7 @@
   id: cmykpres
   name: CMYK Presentation
   span: dev experiment
-  img: img/cmykpres.png
+  img: /img/cmykpres.png
   link: http://www.iris.codes/cmyk/
   gh: https://github.com/irisval/website-2.0/tree/master/public/cmyk
   skills:
@@ -75,7 +75,7 @@
 - id: fastfive
   name: Fast Five
   span: dev experiment
-  img: https://res.cloudinary.com/dupk3ebhq/image/upload/v1559658824/img/g5/Screen_Shot_2019-06-04_at_8.46.32_AM_hb3kdf.png
+  img: https://res.cloudinary.com/dupk3ebhq/image/upload/v1559658824//img/g5/Screen_Shot_2019-06-04_at_8.46.32_AM_hb3kdf.png
   link: https://github.com/irisval/fast-five
   gh: https://github.com/irisval/fast-five
   skills:
@@ -93,7 +93,7 @@
 - id: lcdev
   name: 180° of Impact
   span: dev & design project
-  img: img/180degn.png
+  img: /img/180degn.png
   link: https://thawing-garden-70018.herokuapp.com/
   gh: https://github.com/irisval/180deg
   skills:
@@ -114,7 +114,7 @@
 - id: gc
   name: Generation Coders
   span: dev project
-  img: img/gc.png
+  img: /img/gc.png
   link: http://generationcoders.herokuapp.com/
   gh: https://github.com/irisval/generation-coders
   skills:
