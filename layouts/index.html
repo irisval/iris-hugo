@@ -1,0 +1,211 @@
+{{ define "main" }}
+
+{{- partial "header.html" . -}}
+<div class="index">
+   <div class="mainContent">
+      <section class="hero is-secondary">
+         <h1 id="stopShop">🛒&nbsp; one stop shop</h1>
+
+         <div class="containerAlternative  columns">
+         <div class="column is-12">
+            <div class="section__preview">
+               <p class="section__title">🔨&nbsp; selected projects</p>
+               <p class="section__description">Here's some of the larger projects that I've worked on, usually spanning over a few weeks to a few months. Check out the projects page for more details!</p>
+               <div id="proj__slider">
+                  {{ range .Site.Data.projects }}
+                  <div class="column is-3">
+                     <div class="card is-secondary">
+                        <div class="card-image">
+                           <div class="project has-shadow">
+                              <a href="{{ .link }}" target="_blank">
+                                 <div class="project__overlay"></div>
+                                 <figure class="image is-4by2">    
+                                    <img src="{{ .Site.baseurl }}{{ .img }}">
+                                 </figure>
+                                 <span class="project__icon">
+                                    <div class="project__icon--vcenter"></div>
+                                    <i class="fas fa-link has-text-secondary fa-lg"></i>
+                                 </span>
+                                 <div class="project__details fadeIn-right">
+                                    <p class="project__description">{{ .short_description }}</p>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="is-6 has-text-centered project__name has-text-grey-dark">{{ .name }}</p>
+                     <p class="has-text-centered has-text-grey-dark project__type">Dev Project</p>
+                  </div>
+                {{ end }}
+
+
+               </div>
+               <div class="nav__controls">
+                  <p class=l-p>⟵</p>
+                  <a href="/projects">see all</a>
+                  <p class="r-p">⟶</p>
+               </div>
+               <hr>
+            </div>
+
+            <div class="section__preview">
+             <p class="section__title">👩‍💼&nbsp; work history</p>
+             <p class="section__description">Awesome places I've been able to build cool things at and grow from:</p>
+             <div id="workf__slider">
+                 {{ range .Site.Data.work }}
+                <div class="column is-3">
+                   <div class="card is-secondary">
+                      <div class="card-image">
+                         <div class="project has-shadow">
+                            <a href="{{ .link }}" target="_blank">
+                               <div class="project__overlay"></div>
+                               <figure class="image is-4by2">    
+                                  <img src="{{ .img }}">
+                               </figure>
+                               <span class="project__icon">
+                                  <div class="project__icon--vcenter"></div>
+                                  <i class="fas fa-link has-text-secondary fa-lg"></i>
+                               </span>
+                               <div class="project__details fadeIn-right">
+                                  <p class="project__description">{{ .short_description }}</p>
+                               </div>
+                            </a>
+                         </div>
+                      </div>
+                   </div>
+                   <p class="is-6 has-text-centered project__name has-text-grey-dark">{{ .employer }}</p>
+                   <p class="has-text-centered has-text-grey-dark project__type">{{ .timeframe }}</p>
+                </div>
+                {{ end }}
+             </div>
+             <div class="nav__controls">
+                <p class=l-w>⟵</p>
+                <a href="/work">see all</a>
+                <p class="r-w">⟶</p>
+             </div>
+             <hr>
+          </div>
+
+            <div class="section__preview">
+               <p class="section__title">🧪&nbsp; experiments</p>
+               <p class="section__description">A collection of things I've done in my free time that have made me learn how to learn. Check out the projects page for more details!</p>
+               <div id="exp__slider">
+                  {{ range .Site.Data.experiments }}
+                  <div class="column is-3">
+                     <div class="card is-secondary">
+                        <div class="card-image">
+                           <div class="project has-shadow">
+                              <a href="{{ .link }}" target="_blank">
+                                 <div class="project__overlay"></div>
+                                 <figure class="image is-4by2">    
+                                    <img src="{{ .img }}">
+                                 </figure>
+                                 <span class="project__icon">
+                                    <div class="project__icon--vcenter"></div>
+                                    <i class="fas fa-link has-text-secondary fa-lg"></i>
+                                 </span>
+                                 <div class="project__details fadeIn-right">
+                                    <p class="project__description">{{ .short_description }}</p>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="is-6 has-text-centered project__name has-text-grey-dark">{{ .name }}</p>
+                     <p class="has-text-centered has-text-grey-dark project__type">Dev Project</p>
+                  </div>
+                  {{ end }}
+               </div>
+               <div class="nav__controls">
+                  <p class=l-e>⟵</p>
+                  <a href="/projects">see all</a>
+                  <p class="r-e">⟶</p>
+               </div>
+               <hr>
+            </div>
+
+            <div class="section__preview">
+               <p class="section__title">🤝&nbsp; community</p>
+               <p class="section__description">I love humans and workin' with other ones:</p>
+               <div id="com__slider">
+                 {{ range .Site.Data.community }}
+                  <div class="column is-3">
+                     <div class="card is-secondary">
+                        <div class="card-image">
+                           <div class="project has-shadow">
+                              <a href="{{ .link }}" target="_blank">
+                                 <div class="project__overlay"></div>
+                                 <figure class="image is-4by2">    
+                                    <img src="{{ .img }}">
+                                 </figure>
+                                 <span class="project__icon">
+                                    <div class="project__icon--vcenter"></div>
+                                    <i class="fas fa-link has-text-secondary fa-lg"></i>
+                                 </span>
+                                 <div class="project__details fadeIn-right">
+                                    <p class="project__description">{{ .short_description }}</p>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="is-6 has-text-centered project__name has-text-grey-dark">{{ .name }}</p>
+                     <p class="has-text-centered has-text-grey-dark project__type">{{ .year }}</p>
+                  </div>
+                  {{ end }}
+               </div>
+               <div class="nav__controls">
+                  <p class=l-c>⟵</p>
+                  <a href="/community">see all</a>
+                  <p class="r-c">⟶</p>
+               </div>
+            </div>
+         </div>
+<div class="columns">
+</section>
+
+
+<div class="mainContent">
+<section class="hero is-secondary">
+   <h1 id="stopShop">🧠&nbsp; skills</h1>
+   <div class="container is-fluid">
+    <div class="section__preview">
+        <!-- <p class="section__title">🧠&nbsp; skills</p> -->
+        <div class="columns">
+          <div class="column">
+            <div class="skillSection">
+              <p class="skillType">languages</p>
+              <p class="skills">
+               HTML/CSS, Java, Python
+              </p>
+              <p class="skills">JavaScript, OCaml</p>
+            </div>
+            <div class="skillSection">
+              <p class="skillType">technologies & frameworks</p>
+              <p class="skills">Flask, Express, NodeJS, Laravel</p>
+              <p class="skills">JQuery, p5.js</p>
+              <p class="skills">SASS, LESS, Grav</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="skillSection">
+              <p class="skillType">design & prototyping</p>
+              <p class="skills">Figma & Sketch</p>
+            </div>
+            <div class="skillSection">
+              <p class="skillType">relevant coursework</p>
+              <p class="skills">CS 3110 Data Structures and Functional Programming</p>
+              <p class="skills">CS 2800 Discrete Structures</p>
+              <p class="skills">CS 2112 Object-Oriented Design and Data Structures (Honors)</p>
+              <!-- <p class="skills">NodeJS - The Complete Guide (Udemy)</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+</section>
+</div>
+</div>
+</div>
+ {{- partial "footer.html" . -}}
+{{ end }}

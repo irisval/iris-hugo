@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="showcasePage">
+{{- partial "subpage_nav.html" . -}}
+<div class="nonIndexContent">
+   <div class="container is-fluid">
+      <div class="top">
+         <h1 class="pageTitle">🔨&nbsp; projects and experiments</h1>
+         <p class="subtag">Here's some of the larger projects and that I've worked on, usually spanning over a few months, as well as one-shot experiments that I've done in my free time:</p>
+      </div>
+      <div class="showcase">
+          {{ range .Site.Data.projects }}
+         <div id="{{ .id }}" class="mainContent">
+            <section class="hero is-secondary">
+               <h1 id="stopShop">{{ .year }}</h1>
+               <div class="container is-fluid">
+                  <div class="section__preview">
+                     <!-- <p class="section__title">🧠&nbsp; skills</p> -->
+                     <div class="project__info">
+                        <a href="{{ .link }}"><img src="{{ .Site.BaseURL }}{{.img }}" alt="Image"></a>
+                        <div class="topLine">
+                           <a href="{{ .gh }}"><i class="gh fab fa-lg fa-github-alt"></i></a>
+                           <p class="project__name">&nbsp;&nbsp;&nbsp;{{ .name }}</p>
+                           <span>{{ .span }}</span>
+                        </div>
+                        <p class="project__shortd">{{ .long_description }}</p>
+                        <hr>
+                        <div class="project__tags">
+                           {{ range .skills }}
+                           <span class="tag is-light">{{ . }}</span>
+                             {{ end }}
+                        </div>
+                        <a href="{{ .link }}" class="go">⟶</a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+         {{ end }}
+         <!-- 
+            <div class="columns is-multiline is-vcentered">
+            
+            <div class="column is-two-thirds-tablet is-half-desktop">
+            
+            </div>
+            </div> -->
+      </div>
+   </div>
+   <div class="nonIndexFooter">
+       {{- partial "footer.html" . -}}
+   </div>
+</div>
+{{ end }}

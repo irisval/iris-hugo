@@ -1,0 +1,2 @@
+- replace hardcoded values such as links with values in config.yaml
+- turn into tolerable-weather theme

@@ -1,0 +1,13 @@
+baseURL: /
+title: "My blog"
+languageCode: "en-us"
+baseURL: /
+title: Iris Kim
+params:
+    mainSections: post
+permalinks:
+    post: /:filename/
+    /: /:title/
+publishDir: public
+
+

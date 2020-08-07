@@ -1,0 +1,130 @@
+---
+- id: fvso
+  name: 'FVSO: Promoting News Literacy'
+  span: case study
+  img: img/fvso.png
+  link: https://medium.com/@ong2/fvso-a-more-neutral-approach-to-media-3a3da6ac69e
+  gh: https://github.com/Sallaa/fvso
+  skills:
+  - Design
+  year: '2020'
+  short_description: Case Study for Cornell Medium Design Collective.
+  long_description: FVSO (Fact vs. Opinion) is a web extension in the works that promotes
+    news literacy and critical thinking by quantifying the volume of objective versus
+    subjective language in the media. Our team (a part of Medium Design Collective
+    @ Cornell) worked to design an interface that would encourage this kind of thinking
+    without detracting from the reading experience and without inflecting our own
+    biases. The tool allows the user to view headlines from a range of sources side
+    by side, on a spectrum that ranges from totally objective to totally subjective.
+    The goal here is to showcase the differences in levels of objectivity and subjectivity
+    in the headlines and articles of popular news media sources in a way that gives
+    the reader a full awareness of any potential bias they have when choosing their
+    new source. NLP development is on hold for the time being due to Covid.
+- id: camlished
+  name: Camlished
+  span: dev project
+  img: img/camlished.png
+  link: https://github.com/irisval/camlished
+  gh: https://github.com/irisval/camlished
+  skills:
+  - OCaml
+  year: '2020'
+  short_description: Strategic city-builder game built in OCaml.
+  long_description: Camlished was built by my partners Bryan (@raisinrand) and Changyuan
+    (@Coreball) and I as our final project for CS 3110. In this challenging game,
+    users have to strategically manage a limited amount of resources and population
+    in order to survive and grow their society. Features include building placement,
+    resource conversion, seasonal changes, map generation, mortality rates, an interactive
+    interface, and more. A Javascript port is soon to be in the works!
+- id: critterworld
+  name: Critter World
+  span: class final project
+  img: img/critterworld.png
+  link: https://www.cs.cornell.edu/courses/cs2112/2019fa/project/project.pdf
+  gh: https://www.cs.cornell.edu/courses/cs2112/2019fa/project/project.pdf
+  skills:
+  - Java
+  - Spark
+  year: '2019'
+  short_description: Simulation of turing complete language.
+  long_description: Our final project for CS 2112 consisted of four assignments that
+    built upon each other. In this project, we simulated the evolution of aritifical
+    life (critters). The scope of this project included creating an AST parser and
+    interpreter for the given critter language (users can upload critter programs),
+    a simulator for the execution environment, a graphical front end, and a distributed
+    implementation of the system. Users can launch their own server which can then
+    be logged on to by others. Users would then be able to interact with the simulation
+    and do actions such as compete to kill other critter species or try to survive
+    for as long as possible.
+- type: experiment
+  id: cmykpres
+  name: CMYK Presentation
+  span: dev experiment
+  img: img/cmykpres.png
+  link: http://www.iris.codes/cmyk/
+  gh: https://github.com/irisval/website-2.0/tree/master/public/cmyk
+  skills:
+  - d3.js
+  year: '2018'
+  short_description: Interactive alternative presentation
+  long_description: My high school had a senior experience program where we spent
+    every Wednesday internship. SE culimated in a final presentation at the end of
+    the year and if I wanted to rep CMYK properly, there was no way that I could use
+    a powerpoint. Instead, I created an interactive presentation that uses d3 and
+    made it visually appealing for me to walk through my content.
+- id: fastfive
+  name: Fast Five
+  span: dev experiment
+  img: https://res.cloudinary.com/dupk3ebhq/image/upload/v1559658824/img/g5/Screen_Shot_2019-06-04_at_8.46.32_AM_hb3kdf.png
+  link: https://github.com/irisval/fast-five
+  gh: https://github.com/irisval/fast-five
+  skills:
+  - Express
+  - NodeJS
+  - Slack API
+  - Mongoose
+  year: '2019'
+  short_description: Web app that scrapes Slack Channel to generate weekly newsletter
+  long_description: My former internship CMYK has a weekly newsletter called Fast
+    Five. Employees send in outrageous links to one of the slack channels and then
+    compete with each other to get the most clicks on the newsletter. Creating this
+    email in Mailchimp took up a few hours each week, so I developed a web app that
+    scraped the messages from the channel to automate creating entries.
+- id: lcdev
+  name: 180° of Impact
+  span: dev & design project
+  img: img/180degn.png
+  link: https://thawing-garden-70018.herokuapp.com/
+  gh: https://github.com/irisval/180deg
+  skills:
+  - Sketch
+  - SASS
+  - Twig
+  - Grav
+  year: '2019'
+  short_description: Developed a new site for the organization 180° of Impact
+  long_description: My capstone project for my senior year in high school was to design
+    and develop a new website for the organization 180° of Impact, run by the awesome
+    Matt Scott. The old version of his website (made with Squarespace) was designed
+    in such a way that there was little room for engagement with his content and there
+    were lower user retention rates. I spent a few months coming up with a new UI
+    that addressed these issues and made the visual identity still familiar but more
+    visually appealing. I then implemented the UI as well as an admin interface with
+    the flat-file CMS Grav.
+- id: gc
+  name: Generation Coders
+  span: dev project
+  img: img/gc.png
+  link: http://generationcoders.herokuapp.com/
+  gh: https://github.com/irisval/generation-coders
+  skills:
+  - SASS
+  - Bulma
+  - Flask
+  year: '2018'
+  short_description: Built website for group that taught web dev workshops teaching
+    kids how to code
+  long_description: Generation Coders is a group that I co-ran that teaches different
+    programming workshops across Bergen County, NJ. As we began hosting more and more
+    workshops, we wanted to keep track of all out past/future events. I came up with
+    the design and then built the website.

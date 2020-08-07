@@ -1,0 +1,85 @@
+---
+- name: Medium Design Collective
+  img: img/medium.png
+  link: https://cornellmedium.design/
+  skills:
+  - Figma
+  - Case Study
+  - Flask
+  - SASS
+  year: '2019'
+  short_description: Part of the Culture Incubates team, with the aim of addressing
+    news literacy through design.
+  long_description: Medium Design Collective is Cornell's organization dedicated to
+    empowering individuals and creating solutions through design. In Fall 2019, Medium
+    launched incubate projects, where teams of 3-5 joined together to solve a problem
+    through the design process. As a member of the Society incubate, my team has been
+    working on web app targeting news literacy. This app will analyze articles for
+    users to deliver subjectivity metrics and related content. Our case study will
+    be launching in this year's Medium Editorial and we are currently working to finish
+    this app by June for Medium's annual RAW Expo.
+- name: Big Red Hacks
+  img: img/brh.png
+  link: https://www.bigredhacks.com/
+  skills:
+  - Express
+  - LESS
+  year: '2019'
+  short_description: Member of the Web Dev Team.
+  long_description: Big Red Hacks is Cornell's longstanding hackathon. I completed
+    the front end for the new organization site (to be launched within the month)
+    and will be working on developing the new website for the 2020-2021 season.
+- name: Wardrobe
+  img: img/wardrobe.png
+  link: https://www.cornellwardrobe.com/
+  skills:
+  - Express
+  - SQL
+  year: '2019'
+  short_description: Member of the Tech Team.
+  long_description: Wardrobe is a nonprofit at Cornell that provides students with
+    pre-professional clothing free of charge. Wardrobe prides itself on having been
+    built from ground-up, including its website. Its redesign was just launched in
+    March and as a member of the tech team, I'm working on adding additional functionality
+    to the site to streamline the transaction process.
+- name: Imagine
+  img: img/imagine.png
+  link: http://imagine.hackbca.com/
+  skills:
+  - Event Planning
+  - Outreach
+  year: '2019'
+  short_description: Co-Director/Co-founder of a national educational CS conference.
+  long_description: I was the co-founder and co-director of Imagine, a two-day CS
+    conference with workshops taught by professional industry veterans on topics ranging
+    from cybersecurity to UX to ML. Our aim was to create an event that encouraged
+    attendees pursue computer science and technology in any of its many forms. I oversaw
+    event planning, logistics, and the procurement of workshop speakers. Our keynotes
+    speakers included Eliot Horowitz (CTO of MongoDB) and Anthony Peterson (CTO of
+    Giphy).
+- name: Generation Coders
+  img: img/gc.png
+  link: http://generationcoders.herokuapp.com/
+  skills:
+  - Flask
+  - SASS
+  - Teaching
+  year: '2018'
+  short_description: VP of club that hosted free programming workshops for kids all
+    throughout Bergen County, NJ.
+  long_description: Taught programming and website building workshops to kids at libraries
+    throughout Bergen County, and developed the main website.
+- name: hackBCA iv
+  img: img/iv.png
+  link: https://2017.hackbca.com
+  skills:
+  - Flask
+  - MongoDB
+  year: '2017'
+  short_description: Built main website + registration portal + internal tools for
+    hackathon, uses Flask + HTML/CSS/JS + AWS
+  long_description: From its first run back in 2014, hackBCA has always had an attendance
+    size of 400~650 people which meant we needed an efficient way for event staff
+    to make sure that everything was running smoothly. For hackBCA IV, I built the
+    main website in accordance with the specific needs of that year. I built the website,
+    including the front end , application portal, and internal tools for the hackathon.

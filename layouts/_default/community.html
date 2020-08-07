@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="showcasePage">
+{{- partial "subpage_nav.html" . -}}
+<div class="nonIndexContent">
+   <div class="container is-fluid">
+      <div class="top">
+         <h1 class="pageTitle">🤝&nbsp; community</h1>
+         <p class="subtag">I love humans and workin' with other ones:</p>
+      </div>
+      <div class="showcase">
+         {{ range .Site.Data.community }}
+         <div class="mainContent">
+            <section class="hero is-secondary">
+               <h1 id="stopShop">{{ .year }}</h1>
+               <div class="container is-fluid">
+                  <div class="section__preview">
+                     <!-- <p class="section__title">🧠&nbsp; skills</p> -->
+                     <div class="project__info">
+                        <a href="{{ .link }}"><img src="{{ .Site.BaseURL }}{{ .img }}" alt="Image"></a>
+                        <div class="topLine">
+                           <i class="gh fab fa-lg fa-github-alt"></i>
+                           <p class="project__name">&nbsp;&nbsp;&nbsp;{{ .name }}</p>
+                           <span>dev project</span>
+                        </div>
+                        <p class="project__shortd">{{ .long_description }}</p>
+                        <hr>
+                        <div class="project__tags">
+                            {{ range .skills }}
+                           <span class="tag is-light">{{ . }}</span>
+                             {{ end }}
+                        </div>
+                        <a href="{{ .link }}" class="go">⟶</a>
+                     </div>
+                     
+                  </div>
+               </div>
+            </section>
+         </div>
+         {{ end }}
+         <!-- 
+            <div class="columns is-multiline is-vcentered">
+            
+            <div class="column is-two-thirds-tablet is-half-desktop">
+            
+            </div>
+            </div> -->
+      </div>
+   </div>
+   <div class="nonIndexFooter">
+       {{- partial "footer.html" . -}}
+   </div>
+</div>
+{{ end }}

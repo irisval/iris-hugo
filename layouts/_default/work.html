@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="showcasePage">
+{{- partial "subpage_nav.html" . -}}
+<div class="nonIndexContent">
+   <div class="container is-fluid">
+      <div class="top">
+         <h1 class="pageTitle">👩‍💼&nbsp; work history</h1>
+         <p class="subtag">Awesome places I've been able to work at:</p>
+      </div>
+      <div class="showcase">
+          {{ range .Site.Data.work }}
+         <div class="mainContent">
+            <section class="hero is-secondary">
+               <h1 id="stopShop">{{ .timeframe }}</h1>
+               <div class="container is-fluid">
+                  <div class="section__preview">
+                     <div class="project__info">
+                        <h1>testM. {{ .Site.baseurl }}</h1>
+                      <a href="{{ .link }}"><img src="{{ .Site.baseurl }}{{ .img }}" alt="Image"></a>
+                        <div class="topLine" style="text-align: center;">
+                           <p class="project__name">&nbsp;&nbsp;&nbsp;{{ .employer }}</p>
+                        </div>
+                        <p class="project__shortd">{{ .long_description }}</p>
+                        <hr>
+                        <div class="project__tags">
+                            {{ range .skills }}
+                           <span class="tag is-light">{{ . }}</span>
+                             {{ end }}
+                        </div>
+                        <a href="{{ .link }}" class="go">⟶</a>
+                     </div>
+                     
+                  </div>
+               </div>
+            </section>
+         </div>
+         {{ end }}
+      </div>
+   </div>
+   <div class="nonIndexFooter">
+      {{- partial "footer.html" . -}}
+   </div>
+</div>
+{{ end }}

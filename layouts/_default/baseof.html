@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+<body>
+  
+    <div id="content">
+        {{- block "main" . }}{{- end }}
+    </div>
+    
+    <script src="{{ .Site.BaseURL }}js/index.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/slider.js"></script>
+</body>
+
+</html>
+
+
+

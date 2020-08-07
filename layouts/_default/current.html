@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="currentPage showcasePage">
+{{- partial "subpage_nav.html" . -}}
+<div class="nonIndexContent">
+   <div class="container is-fluid">
+      <div class="top">
+         <h1 class="pageTitle">⚙️&nbsp; current work</h1>
+         <p class="subtag">Here's what I'm currently up to!</p>
+      </div>
+      <div class="showcase">
+
+         <div class="mainContent todos">
+            <section class="hero is-secondary">
+               <h1 id="stopShop">last updated 5/15/20</h1>
+               <div class="container is-fluid">
+           <div class="columns">
+              <div class="column">
+                {{ range .Site.Data.current }}
+                {{ range .items }}
+                <div class="item"><p><span>#</span>{{ . | safeHTML }}</p>
+                </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+            
+             </div>
+          </section>
+         </div>
+ 
+         <!-- 
+            <div class="columns is-multiline is-vcentered">
+            
+            <div class="column is-two-thirds-tablet is-half-desktop">
+            
+            </div>
+            </div> -->
+      </div>
+   </div>
+   <div class="nonIndexFooter">
+      {{- partial "footer.html" . -}}
+   </div>
+</div>
+{{ end }}
