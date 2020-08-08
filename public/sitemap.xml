@@ -3,115 +3,147 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/creating-a-new-theme/</loc>
+    <loc>//localhost:1313/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>//localhost:1313/post/</loc>
     <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/goisforlovers/</loc>
+    <loc>//localhost:1313/goisforlovers/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/development/</loc>
+    <loc>//localhost:1313/tags/development/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/go/</loc>
+    <loc>//localhost:1313/tags/go/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/golang/</loc>
+    <loc>//localhost:1313/tags/golang/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/migrate-from-jekyll/</loc>
+    <loc>//localhost:1313/migrate-from-jekyll/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/templates/</loc>
+    <loc>//localhost:1313/tags/templates/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/themes/</loc>
+    <loc>//localhost:1313/tags/themes/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/development/</loc>
+    <loc>//localhost:1313/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/hugoisforlovers/</loc>
+    <loc>//localhost:1313/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/golang/</loc>
+    <loc>//localhost:1313/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
+    <loc>//localhost:1313/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/community/</loc>
+    <loc>//localhost:1313/ciro/ciro/</loc>
   </url>
   
   <url>
-    <loc>/community/community/</loc>
+    <loc>//localhost:1313/cmyk/cmyk/</loc>
   </url>
   
   <url>
-    <loc>/experiments/</loc>
+    <loc>//localhost:1313/current/current/</loc>
   </url>
   
   <url>
-    <loc>/experiments/experiments/</loc>
+    <loc>//localhost:1313/mvm/mvm/</loc>
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>//localhost:1313/ciro/</loc>
   </url>
   
   <url>
-    <loc>/projects/projects/</loc>
+    <loc>//localhost:1313/cmyk/</loc>
   </url>
   
   <url>
-    <loc>/work/work/</loc>
+    <loc>//localhost:1313/community/</loc>
   </url>
   
   <url>
-    <loc>/work/</loc>
+    <loc>//localhost:1313/community/community/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/current/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/experiments/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/experiments/experiments/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/mvm/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/projects/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/work/work/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/work/</loc>
   </url>
   
 </urlset>
