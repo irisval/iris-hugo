@@ -1,0 +1,245 @@
+---
+- type: case study
+  id: fvso
+  name: 'FVSO: Promoting News Literacy'
+  span: case study
+  img: /img/fvso.png
+  link: https://medium.com/@ong2/fvso-a-more-neutral-approach-to-media-3a3da6ac69e
+  gh: https://github.com/Sallaa/fvso
+  skills:
+  - Design
+  year: '2020'
+  short_description: Case Study for Cornell Medium Design Collective.
+  long_description: FVSO (Fact vs. Opinion) is a web extension in the works that promotes
+    news literacy and critical thinking by quantifying the volume of objective versus
+    subjective language in the media. Our team (a part of Medium Design Collective
+    @ Cornell) worked to design an interface that would encourage this kind of thinking
+    without detracting from the reading experience and without inflecting our own
+    biases. The tool allows the user to view headlines from a range of sources side
+    by side, on a spectrum that ranges from totally objective to totally subjective.
+    The goal here is to showcase the differences in levels of objectivity and subjectivity
+    in the headlines and articles of popular news media sources in a way that gives
+    the reader a full awareness of any potential bias they have when choosing their
+    new source. NLP development is on hold for the time being due to Covid.
+- type: dev project 
+  id: camlished
+  name: Camlished
+  span: dev project
+  img: /img/camlished.png
+  link: https://github.com/irisval/camlished
+  gh: https://github.com/irisval/camlished
+  skills:
+  - OCaml
+  year: '2020'
+  short_description: Strategic city-builder game built in OCaml.
+  long_description: Camlished was built by my partners Bryan (@raisinrand) and Changyuan
+    (@Coreball) and I as our final project for CS 3110. In this challenging game,
+    users have to strategically manage a limited amount of resources and population
+    in order to survive and grow their society. Features include building placement,
+    resource conversion, seasonal changes, map generation, mortality rates, an interactive
+    interface, and more. A Javascript port is soon to be in the works!
+- type: dev project 
+  id: critterworld
+  name: Critter World
+  span: class final project
+  img: /img/critterworld.png
+  link: https://www.cs.cornell.edu/courses/cs2112/2019fa/project/project.pdf
+  gh: https://www.cs.cornell.edu/courses/cs2112/2019fa/project/project.pdf
+  skills:
+  - Java
+  - Spark
+  year: '2019'
+  short_description: Simulation of turing complete language.
+  long_description: Our final project for CS 2112 consisted of four assignments that
+    built upon each other. In this project, we simulated the evolution of aritifical
+    life (critters). The scope of this project included creating an AST parser and
+    interpreter for the given critter language (users can upload critter programs),
+    a simulator for the execution environment, a graphical front end, and a distributed
+    implementation of the system. Users can launch their own server which can then
+    be logged on to by others. Users would then be able to interact with the simulation
+    and do actions such as compete to kill other critter species or try to survive
+    for as long as possible.
+- type: dev project 
+  id: fastfive
+  name: Fast Five
+  span: dev experiment
+  img: https://res.cloudinary.com/dupk3ebhq/image/upload/v1559658824//img/g5/Screen_Shot_2019-06-04_at_8.46.32_AM_hb3kdf.png
+  link: https://github.com/irisval/fast-five
+  gh: https://github.com/irisval/fast-five
+  skills:
+  - Express
+  - NodeJS
+  - Slack API
+  - Mongoose
+  year: '2019'
+  short_description: Web app that scrapes Slack Channel to generate weekly newsletter
+  long_description: My former internship CMYK has a weekly newsletter called Fast
+    Five. Employees send in outrageous links to one of the slack channels and then
+    compete with each other to get the most clicks on the newsletter. Creating this
+    email in Mailchimp took up a few hours each week, so I developed a web app that
+    scraped the messages from the channel to automate creating entries.
+- type: experiment
+  id: cmykpres
+  name: CMYK Presentation
+  span: dev experiment
+  img: /img/cmykpres.png
+  link: http://www.iris.codes/cmyk/
+  gh: https://github.com/irisval/website-2.0/tree/master/public/cmyk
+  skills:
+  - d3.js
+  year: '2019'
+  short_description: Interactive alternative presentation
+  long_description: My high school had a senior experience program where we spent
+    every Wednesday internship. SE culimated in a final presentation at the end of
+    the year and if I wanted to rep CMYK properly, there was no way that I could use
+    a powerpoint. Instead, I created an interactive presentation that uses d3 and
+    made it visually appealing for me to walk through my content.
+- type: dev project 
+  id: lcdev
+  name: 180° of Impact
+  span: dev & design project
+  img: /img/180degn.png
+  link: https://thawing-garden-70018.herokuapp.com/
+  gh: https://github.com/irisval/180deg
+  skills:
+  - Sketch
+  - SASS
+  - Twig
+  - Grav
+  year: '2019'
+  short_description: Developed a new site for the organization 180° of Impact
+  long_description: My capstone project for my senior year in high school was to design
+    and develop a new website for the organization 180° of Impact, run by the awesome
+    Matt Scott. The old version of his website (made with Squarespace) was designed
+    in such a way that there was little room for engagement with his content and there
+    were lower user retention rates. I spent a few months coming up with a new UI
+    that addressed these issues and made the visual identity still familiar but more
+    visually appealing. I then implemented the UI as well as an admin interface with
+    the flat-file CMS Grav.
+- type: dev project 
+  id: gc
+  name: Generation Coders
+  span: dev project
+  img: /img/gc.png
+  link: http://generationcoders.herokuapp.com/
+  gh: https://github.com/irisval/generation-coders
+  skills:
+  - SASS
+  - Bulma
+  - Flask
+  year: '2018'
+  short_description: Built website for group that taught web dev workshops teaching
+    kids how to code
+  long_description: Generation Coders is a group that I co-ran that teaches different
+    programming workshops across Bergen County, NJ. As we began hosting more and more
+    workshops, we wanted to keep track of all out past/future events. I came up with
+    the design and then built the website.
+- type: experiment
+  id: mv
+  name: Music Visualizer
+  span: dev experiment
+  img: /img/mv.png
+  link: http://iris.codes/mvm/
+  gh: https://github.com/irisval/music-visualizer
+  skills:
+  - p5.js
+  year: '2018'
+  short_description: Audio visualizer built with p5
+  long_description: I've been fascinated with Dave Whyte's work for years (@beesandbombs
+    on tumblr) and I wanted to create something that could be similarly visually appealing.
+    Using p5, I created a music visualizer that users can upload audio to and responds
+    to factors such as bass and treble levels.
+- type: experiment
+  id: pomodoro
+  name: Pomodoro Timer
+  span: dev experiment
+  img: /img/pomodoro.png
+  link: https://github.com/irisval/pomodoro
+  gh: https://github.com/irisval/pomodoro
+  skills:
+  - Electron
+  - JS
+  - HTML/CSS
+  year: '2018'
+  short_description: Built a Timer app for the Pomodoro Technique, uses Electron +
+    HTML/CSS + Javascript
+  long_description: The Pomodoro technique is one that I often use when I'm having
+    trouble studying. I had a hard time finding a free timer that I liked so I decided
+    to build my own. The electron app keeps track of the 25-/5- minute intervals for
+    you and records your cycle history.
+- type: experiment
+  id: commentfilter
+  name: Comment Filter
+  span: dev experiment
+  img: /img/youtube.png
+  link: https://github.com/irisval/comment-filter
+  gh: https://github.com/irisval/comment-filter
+  skills:
+  - Chrome extension
+  - JS
+  year: '2018'
+  short_description: Built Chrome Extension that filters YouTube comments (profanity,
+    custom blacklist, etc.) using Javascript
+  long_description: My introduction to the powers of Javascript scraping! I built
+    a chrome extension that's able to filter YouTube comments. The extension supports
+    custom blacklisting/whitelisting in addition to options to remove profanity-laden
+    comments, remove all comments, or comments with links.
+- type: dev project 
+  id: hackbcaiv
+  name: hackbca iv
+  span: dev project
+  img: /img/iv.png
+  link: http://kimi19.pythonanywhere.com/
+  gh: https://github.com/hackBCA/hackbcafour
+  skills:
+  - Flask
+  - SASS
+  - MongoDB
+  - AWS
+  year: '2017'
+  short_description: Built main website + registration portal + internal tools for
+    hackathon, uses Flask + HTML/CSS/JS + AWS
+  long_description: From its first run back in 2014, hackBCA has always had an attendance
+    size of 400~650 people which meant we needed an efficient way for event staff
+    to make sure that everything was running smoothly. For hackBCA IV, I built the
+    main website in accordance with the specific needs of that year. I built the website,
+    including the front end , application portal, and internal tools for the hackathon.
+    Note - the AWS hosting got taken down so I've reuploaded the site to a different
+    host for posterity.
+- type: dev project
+  id: nextgen
+  name: Next Gen Creators
+  span: dev project
+  img: /img/nextgen.png
+  link: https://blooming-ocean-62649.herokuapp.com/
+  gh: https://github.com/elixirlabsinc/next-gen
+  skills:
+  - Grav
+  - Twig
+  - SASS
+  year: '2017'
+  short_description: Built new website + admin interface for nonprofit Next Gen Creators
+    using PHP, HTML/CSS/JS, Grav, Twig
+  long_description: Next Gen Creators is a tech initiative in the Caribbean that provides
+    a platform for developers and future developers to engage. Elixir Labs stepped
+    in to build them their new website and I was the lead developer on that team.
+    Over the course of this project, I worked with the designer to implement all of
+    the front end and integrated the flat file cms Grav so that the Next Gen Team
+    would be able to have full customizability over their content simply through 'plug
+    & chug'. This version of the website isn't being used anymore but I've uploaded
+    it to Heroku for posterity.
+- type: experiment
+  id: ft
+  name: Family Tree
+  span: dev experiment
+  img: /img/ft.png
+  link: https://github.com/irisval/family-tree
+  gh: https://github.com/irisval/family-tree
+  skills:
+  - python
+  year: '2017'
+  short_description: Python program that finds the most direct line of connection
+    between two members in a family tree
+  long_description: Project for YSAP back in my sophomore year of high school. Used
+    breadth-first search to finds the most direct line of connection between two members
+    in a family tree, which can be uploaded as a JSON file.

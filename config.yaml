@@ -6,7 +6,7 @@ title: Iris Kim
 params:
     mainSections: post
 permalinks:
-    post: /:filename/
+    posts: /posts/:filename/
     /: /:title/
 publishDir: public
 

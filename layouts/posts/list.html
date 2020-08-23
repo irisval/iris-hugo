@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div id="blogPage">
+{{- partial "subpage_nav.html" . -}}
+<div class="nonIndexContent">
+   <div class="container is-fluid">
+      <div class="top">
+         <h1 class="pageTitle">✍️&nbsp; accountability</h1>
+         <p class="subtag">My memory is bad. This is how I'm trying to remedy that!</p>
+      </div>
+      <div class="blog-container">
+        <ol class="post-list">
+
+          <i><h1>Coming soon...</h1></i>
+           {{/*  {{ $pag := .Paginate .Pages }}
+            {{ range $pag.Pages }}
+                {{ partial "post-stub.html" . }}
+            {{ end }} */}}
+        </ol>
+      </div>
+  </div>
+</div>
+<div class="nonIndexFooter">
+  {{- partial "footer.html" . -}}
+</div>
+{{end}}

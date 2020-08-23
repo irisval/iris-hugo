@@ -8,7 +8,7 @@
          <p class="subtag">Here's some of the larger projects and that I've worked on, usually spanning over a few months, as well as one-shot experiments that I've done in my free time:</p>
       </div>
       <div class="showcase">
-          {{ range .Site.Data.projects }}
+          {{ range .Site.Data.full }}
          <div id="{{ .id }}" class="mainContent">
             <section class="hero is-secondary">
                <h1 id="stopShop">{{ .year }}</h1>
@@ -20,7 +20,7 @@
                         <div class="topLine">
                            <a href="{{ .gh }}"><i class="gh fab fa-lg fa-github-alt"></i></a>
                            <p class="project__name">&nbsp;&nbsp;&nbsp;{{ .name }}</p>
-                           <span>{{ .span }}</span>
+                           <span>{{ .type }}</span>
                         </div>
                         <p class="project__shortd">{{ .long_description }}</p>
                         <hr>

@@ -9,46 +9,6 @@
          <div class="containerAlternative  columns">
          <div class="column is-12">
             <div class="section__preview">
-               <p class="section__title">🔨&nbsp; selected projects</p>
-               <p class="section__description">Here's some of the larger projects that I've worked on, usually spanning over a few weeks to a few months. Check out the projects page for more details!</p>
-               <div id="proj__slider">
-                  {{ range .Site.Data.projects }}
-                  <div class="column is-3">
-                     <div class="card is-secondary">
-                        <div class="card-image">
-                           <div class="project has-shadow">
-                              <a href="{{ .link }}" target="_blank">
-                                 <div class="project__overlay"></div>
-                                 <figure class="image is-4by2">    
-                                    <img src="{{ .Site.baseurl }}{{ .img }}">
-                                 </figure>
-                                 <span class="project__icon">
-                                    <div class="project__icon--vcenter"></div>
-                                    <i class="fas fa-link has-text-secondary fa-lg"></i>
-                                 </span>
-                                 <div class="project__details fadeIn-right">
-                                    <p class="project__description">{{ .short_description }}</p>
-                                 </div>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                     <p class="is-6 has-text-centered project__name has-text-grey-dark">{{ .name }}</p>
-                     <p class="has-text-centered has-text-grey-dark project__type">Dev Project</p>
-                  </div>
-                {{ end }}
-
-
-               </div>
-               <div class="nav__controls">
-                  <p class=l-p>⟵</p>
-                  <a href="/projects">see all</a>
-                  <p class="r-p">⟶</p>
-               </div>
-               <hr>
-            </div>
-
-            <div class="section__preview">
              <p class="section__title">👩‍💼&nbsp; work history</p>
              <p class="section__description">Awesome places I've been able to build cool things at and grow from:</p>
              <div id="workf__slider">
@@ -87,6 +47,45 @@
           </div>
 
             <div class="section__preview">
+               <p class="section__title">🔨&nbsp; selected projects</p>
+               <p class="section__description">Here's some of the larger projects that I've worked on, usually spanning over a few weeks to a few months. Check out the projects page for more details!</p>
+               <div id="proj__slider">
+                  {{ range .Site.Data.projects }}
+                  <div class="column is-3">
+                     <div class="card is-secondary">
+                        <div class="card-image">
+                           <div class="project has-shadow">
+                              <a href="{{ .link }}" target="_blank">
+                                 <div class="project__overlay"></div>
+                                 <figure class="image is-4by2">    
+                                    <img src="{{ .Site.baseurl }}{{ .img }}">
+                                 </figure>
+                                 <span class="project__icon">
+                                    <div class="project__icon--vcenter"></div>
+                                    <i class="fas fa-link has-text-secondary fa-lg"></i>
+                                 </span>
+                                 <div class="project__details fadeIn-right">
+                                    <p class="project__description">{{ .short_description }}</p>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="is-6 has-text-centered project__name has-text-grey-dark">{{ .name }}</p>
+                     <p class="has-text-centered has-text-grey-dark project__type">{{ .type }}</p>
+                  </div>
+                {{ end }}
+
+
+               </div>
+               <div class="nav__controls">
+                  <p class=l-p>⟵</p>
+                  <a href="/projects">see all</a>
+                  <p class="r-p">⟶</p>
+               </div>
+               <hr>
+            </div>
+            <div class="section__preview">
                <p class="section__title">🧪&nbsp; experiments</p>
                <p class="section__description">A collection of things I've done in my free time that have made me learn how to learn. Check out the projects page for more details!</p>
                <div id="exp__slider">
@@ -112,7 +111,7 @@
                         </div>
                      </div>
                      <p class="is-6 has-text-centered project__name has-text-grey-dark">{{ .name }}</p>
-                     <p class="has-text-centered has-text-grey-dark project__type">Dev Project</p>
+                     <p class="has-text-centered has-text-grey-dark project__type">{{ .type }}</p>
                   </div>
                   {{ end }}
                </div>

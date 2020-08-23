@@ -1,0 +1,121 @@
+---
+- date: 8/7/2020
+  total: 5.6 hours
+  work:
+    - name: CPL Redesign
+      length: 2.6 hours
+      description: Finished transpiling/transfering over static frontend for the homepage.
+    - name: Hugo
+      length: 3 hours
+      description: Transferred personal website from Express to Hugo.
+- date: 8/8/2020
+  total: 1 hour
+  work:
+    - name: Hugo
+      length: 1 hour
+      description: Continued making changes to personal website.
+- date: 8/9/2020
+  total: 1.5 hours
+  work:
+    - name: The JavaScript Bootcamp
+      length: 1.5 hours
+      description: Created GitHub user search page with React.
+- date: 8/10/2020
+  total: 5.3 hours
+  work:
+    - name: CPL Redesign
+      length: 2.4 hours
+      description: Added content blocks to non view pages.
+    - name: Programming Practice
+      length: 1 hour
+      description: Fast and Slow Pointers.
+    - name: Hugo
+      length: 40 minutes
+      description: Created blog on site.
+    - name: Year in Books
+      length: 1.5 hours
+      description: Started mini project to grab year in books from Goodreads.
+- date: 8/11/2020
+  total: 3.1 hours
+  work:
+    - name: CPL Redesign
+      length: 1.6 hours
+      description: Finished creating Twig templates for content.
+    - name: Programming Practice
+      length: 1.5 hours
+      description: Fast and Slow Pointers.
+- date: 8/12/2020
+  total: 2.5 hours
+  work:
+    - name: CPL Redesign
+      length: 2.5 hours
+      description: Fixed homepage autopulled content.
+- date: 8/13/2020
+  total: 2 hours
+  work:
+    - name: CPL Redesign
+      length: 1.6 hours
+      description: Fixed carousel... integrated with Drupal's generated HTML.
+    - name: Programming Practice
+      length: 40 minutes
+      description: Merge Intervals.
+- date: 8/14/2020
+  total: 2.5 hours
+  work:
+    - name: CPL Redesign
+      length: 2.5 hours
+      description: Added heroes to the rest of the pages.
+- date: 8/15/2020
+  total: 1 hour
+  work:
+    - name: Programming Practice
+      length: 1 hour
+      description: Merge Intervals.
+- date: 8/16/2020
+  total: 1 hour
+  work:
+    - name: Programming Practice
+      length: 1 hour.
+      description: Merge Intervals, heaps.
+- date: 8/17/2020
+  total: 4.8 hours
+  work:
+    - name: CPL Redesign
+      length: 4.8 hours
+      description: Ran into issues with my local dev environment... 
+- date: 8/18/2020
+  total: 3.5 hours
+  work:
+    - name: CPL Redesign
+      length: 2 hours
+      description: Solved yesterdays environment issue.... writeup here!
+    - name: Programming Practice
+      length: 1.5 hours
+      description: Cyclic Sort.
+- date: 8/19/2020
+  total: 3.1 hours
+  work:
+    - name: CPL Redesign
+      length: 2.1 hours
+      description: Trial and Error - custom styles and workarounds for exposed filters.
+    - name: Programming Practice
+      length: 1 hour
+      description: Cyclic Sort.
+- date: 8/20/2020
+  total: 2 hours
+  work:
+    - name: CPL Redesign
+      length: 1 hour
+      description: Implemented workaround for Drupal's textbox only filtering option.
+    - name: Programming Practice
+      length: 1 hour
+      description:  In-Place Linked List Reversal.
+- date: 8/21/2020
+  total: 1 hour
+  work:
+    - name: CPL Redesign
+      length: 
+      description: 
+    - name: Programming Practice
+      length: 1 hour
+      description:  In-Place Linked List Reversal.

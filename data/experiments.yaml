@@ -1,21 +1,36 @@
 ---
-- id: mv
+- type: dev experiment
+  id: cmykpres
+  name: CMYK Presentation
+  img: /img/cmykpres.png
+  link: http://www.iris.codes/cmyk/
+  gh: https://github.com/irisval/website-2.0/tree/master/public/cmyk
+  skills:
+  - d3.js
+  year: '2018'
+  short_description: Interactive alternative presentation
+  long_description: My high school had a senior experience program where we spent
+    every Wednesday internship. SE culimated in a final presentation at the end of
+    the year and if I wanted to rep CMYK properly, there was no way that I could use
+    a powerpoint. Instead, I created an interactive presentation that uses d3 and
+    made it visually appealing for me to walk through my content.
+- type: dev experiment
+  id: mv
   name: Music Visualizer
-  span: dev experiment
   img: /img/mv.png
   link: http://iris.codes/mvm/
   gh: https://github.com/irisval/music-visualizer
   skills:
   - p5.js
-  year: '2018'
+  year: '2019'
   short_description: Audio visualizer built with p5
   long_description: I've been fascinated with Dave Whyte's work for years (@beesandbombs
     on tumblr) and I wanted to create something that could be similarly visually appealing.
     Using p5, I created a music visualizer that users can upload audio to and responds
     to factors such as bass and treble levels.
-- id: pomodoro
+- type: dev experiment
+  id: pomodoro
   name: Pomodoro Timer
-  span: dev experiment
   img: /img/pomodoro.png
   link: https://github.com/irisval/pomodoro
   gh: https://github.com/irisval/pomodoro
@@ -30,9 +45,9 @@
     trouble studying. I had a hard time finding a free timer that I liked so I decided
     to build my own. The electron app keeps track of the 25-/5- minute intervals for
     you and records your cycle history.
-- id: commentfilter
+- type: dev experiment
+  id: commentfilter
   name: Comment Filter
-  span: dev experiment
   img: /img/youtube.png
   link: https://github.com/irisval/comment-filter
   gh: https://github.com/irisval/comment-filter
@@ -46,71 +61,9 @@
     a chrome extension that's able to filter YouTube comments. The extension supports
     custom blacklisting/whitelisting in addition to options to remove profanity-laden
     comments, remove all comments, or comments with links.
-- type: project
-  id: nextgen
-  name: Next Gen Creators
-  span: dev project
-  img: /img/nextgen.png
-  link: https://blooming-ocean-62649.herokuapp.com/
-  gh: https://github.com/elixirlabsinc/next-gen
-  skills:
-  - Grav
-  - Twig
-  - SASS
-  year: '2017'
-  short_description: Built new website + admin interface for nonprofit Next Gen Creators
-    using PHP, HTML/CSS/JS, Grav, Twig
-  long_description: Next Gen Creators is a tech initiative in the Caribbean that provides
-    a platform for developers and future developers to engage. Elixir Labs stepped
-    in to build them their new website and I was the lead developer on that team.
-    Over the course of this project, I worked with the designer to implement all of
-    the front end and integrated the flat file cms Grav so that the Next Gen Team
-    would be able to have full customizability over their content simply through 'plug
-    & chug'. This version of the website isn't being used anymore but I've uploaded
-    it to Heroku for posterity.
-- type: project
-  id: hackbcaiv
-  name: hackbca iv
-  span: dev project
-  img: /img/iv.png
-  link: 2017.hackbca.com
-  gh: https://github.com/hackBCA/hackbcafour
-  skills:
-  - Flask
-  - SASS
-  - MongoDB
-  - AWS
-  year: '2017'
-  short_description: Built main website + registration portal + internal tools for
-    hackathon, uses Flask + HTML/CSS/JS + AWS
-  long_description: From its first run back in 2014, hackBCA has always had an attendance
-    size of 400~650 people which meant we needed an efficient way for event staff
-    to make sure that everything was running smoothly. For hackBCA IV, I built the
-    main website in accordance with the specific needs of that year. I built the website,
-    including the front end , application portal, and internal tools for the hackathon.
-    Note - the AWS hosting got taken down so I've reuploaded the site to a different
-    host for posterity.
-- type: project
-  id: bcadash
-  name: BCA Dashboard
-  span: dev project
-  img: /img/db.png
-  link: https://github.com/ATCS-BCA/bca-apps/tree/master/dashboard
-  gh: https://github.com/ATCS-BCA/bca-apps/tree/master/dashboard
-  skills:
-  - PHP
-  - SASS
-  year: '2017'
-  short_description: Built dashboard interface that consolidated school’s 8 separate
-    apps into a single web app & login system, uses PHP
-  long_description: At the time, my high school had about 8 separate web apps that
-    had their own log in/permissions, url, and identity. Having to keep in mind all
-    of the different links was a pain for students and the system was not as extensible
-    for student developers. I built a dashboard interface that consolidated all of
-    these apps into a single web app & login system that lived under the same path.
-- id: ft
+- type: dev experiment
+  id: ft
   name: Family Tree
-  span: dev experiment
   img: /img/ft.png
   link: https://github.com/irisval/family-tree
   gh: https://github.com/irisval/family-tree

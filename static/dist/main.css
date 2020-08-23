@@ -1,14 +1,5 @@
 @charset "UTF-8";
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
-/*@font-face {
-	font-family: WhitneyLight;
-	src: url(../fonts/WhitneyHTF-Light.otf);
-}
-
-@font-face {
-	font-family: WhitneySemiBold;
-	src: url(../fonts/WhitneyHTF-SemiBold.otf);
-}*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
 /*#89BBFE;*/
@@ -31,13 +22,25 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 
+.navbar-item:first-of-type {
+  padding-right: 1.5rem !important;
+}
+
+.navbar-link::after {
+  border-color: #e9f5fd !important;
+}
+
+.navbar-dropdown, .navbar-dropdown:hover, a.navbar-item:hover, .navbar-link:hover, .navbar-item.has-dropdown:hover .navbar-link {
+  background-color: #89a0bf !important;
+}
+
 /*p {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 */
 .index {
   /*#l {
-  	float: left;
+  float: left;
   }*/
 }
 .index .title {
@@ -78,7 +81,7 @@ body {
 .index #intro {
   background-color: #89a0bf;
   margin: 30px;
-  padding: 15px 20px 50px !important;
+  padding: 10px 20px 50px 4px !important;
 }
 .index nav {
   min-height: 3.25rem;
@@ -91,12 +94,13 @@ body {
 }
 .index nav .i {
   font-weight: 900;
+  padding-top: 0.5rem;
 }
 .index nav a:hover {
   text-decoration: underline;
 }
 .index .nav__right {
-  margin-left: auto;
+  display: flex;
 }
 .index .nav__link {
   line-height: 1.5;
@@ -216,9 +220,9 @@ body {
   transition: all 0.3s ease-in-out 0s;
   color: #FFF !important;
   /*p {
-    color: #fff;
-    font-size: 0.8em;
-  }*/
+   color: #fff;
+   font-size: 0.8em;
+   }*/
 }
 .index .project__details .title {
   margin-bottom: 0.3rem !important;
@@ -371,60 +375,119 @@ hr {
   margin-left: 20px;
 }
 
-/*projects page*/
-.showcasePage {
-  /*margin: 30px;*/
-  /* ===== == = === 30em (480px) === = == ===== */
-  /* ===== == = === 37.5em (600px) === = == ===== */
-  /* ===== == = === 48em (768px) === = == ===== */
-  /* ===== == = === 56.25em (900px) === = == ===== */
-  /* ===== == = === 68.75em (1100px) === = == ===== */
-  /* ===== == = === 81.25em (1300px) === = == ===== */
-}
-.showcasePage .subpageNav {
-  background-color: #89a0bf !important;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-.showcasePage .mainContent section {
-  box-shadow: 0 0.375em 2.5em rgba(0, 0, 0, 0.2);
-  /*height: 500px;
-  		overflow-y: auto;
-  */
-}
-.showcasePage .top {
-  padding: 100px 0 75px;
-}
-.showcasePage nav {
+nav {
   min-height: 3.25rem;
   display: flex;
   flex-direction: row;
   font-weight: 600;
   letter-spacing: 1px;
-  padding: 15px 20px 15px !important;
+  padding: 5px 20px !important;
 }
-.showcasePage nav .i {
+nav.subpageNav {
+  background-color: #89a0bf !important;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+nav .i {
+  padding-top: 0.5rem;
   font-weight: 900;
 }
-.showcasePage nav a {
+nav a {
   color: #ffe3c2 !important;
 }
-.showcasePage nav a:hover {
+nav a:hover {
   text-decoration: underline;
 }
-.showcasePage .nav__right {
+
+.nav__right {
+  display: flex;
   margin-left: auto;
 }
-.showcasePage .nav__link {
+
+.nav__link {
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
   position: relative;
 }
-.showcasePage .nonIndexContent {
+
+.nonIndexContent {
   padding-top: 30px;
   width: 100%;
   /*background-color: #f8f9f9 !important*/
+}
+
+.pageTitle {
+  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.subtag {
+  color: #bac4ca !important;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 1.65 !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.top {
+  padding: 100px 0 75px;
+}
+
+#postSingle .post__tags {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  width: 100%;
+  border-bottom: 2px dotted #E9ECEC;
+}
+
+#blogPage .post-stub:first-of-type {
+  border-top: 2px dotted #E9ECEC;
+}
+#blogPage .post-stub {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted #E9ECEC;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  margin-bottom: 1em;
+}
+#blogPage .post-stub .post-stub-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: underline #ffe3c2;
+  color: #4a4a4a !important;
+}
+#blogPage .post-stub time {
+  font-size: 0.8rem;
+}
+#blogPage .post-stub .post-stub-summary {
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.project__tags, .post__tags {
+  display: inline-block;
+}
+
+.tag {
+  background-color: #ffe3c2 !important;
+  color: white !important;
+  border-radius: 1px !important;
+  font-weight: 600;
+}
+
+/*projects page*/
+.showcasePage {
+  /*margin: 30px;*/
+}
+.showcasePage .mainContent section {
+  box-shadow: 0 0.375em 2.5em rgba(0, 0, 0, 0.2);
+  /*height: 500px;
+  overflow-y: auto;
+  */
 }
 .showcasePage .topLine {
   margin-top: 25px;
@@ -440,19 +503,10 @@ hr {
   font-weight: 400;
   display: inline-block;
 }
-.showcasePage .project__tags {
-  display: inline-block;
-}
 .showcasePage .project__shortd {
   font-family: "Source Sans Pro", sans-serif;
   color: #8f9fa9 !important;
   margin: 10px 0 25px;
-}
-.showcasePage .tag {
-  background-color: #ffe3c2 !important;
-  color: white !important;
-  border-radius: 1px !important;
-  font-weight: 600;
 }
 .showcasePage .gh {
   display: inline-block;
@@ -465,67 +519,6 @@ hr {
   font-weight: 600;
   font-size: 25px;
   color: #bac4ca !important;
-}
-.showcasePage .pageTitle {
-  font-weight: 700;
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-}
-.showcasePage .subtag {
-  color: #bac4ca !important;
-  font-weight: 400;
-  font-size: 1.15rem;
-  line-height: 1.65 !important;
-  font-family: "Source Sans Pro", sans-serif;
-}
-@media only screen and (min-width: 20em) {
-  .showcasePage .top, .showcasePage .showcase {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
-@media only screen and (min-width: 30em) {
-  .showcasePage .top, .showcasePage .showcase {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
-@media only screen and (min-width: 37.5em) {
-  .showcasePage .top, .showcasePage .showcase {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
-@media only screen and (min-width: 48em) {
-  .showcasePage .top, .showcasePage .showcase {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
-@media only screen and (min-width: 56.25em) {
-  .showcasePage .top, .showcasePage .showcase {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
-@media only screen and (max-width: 1086px) {
-  .showcasePage .top, .showcasePage .mainContent .container {
-    margin-left: 32px;
-    margin-right: 32px;
-  }
-}
-@media only screen and (min-width: 68.75em) {
-  .showcasePage .top, .showcasePage .showcase {
-    margin-left: 125px;
-    margin-right: 125px;
-  }
-}
-@media only screen and (min-width: 81.25em) {
-  .showcasePage .top, .showcasePage .showcase {
-    margin-left: 200px;
-    margin-right: 200px;
-  }
 }
 .showcasePage .showcase .column {
   margin: 0 auto;
@@ -542,6 +535,60 @@ hr {
   background-color: #f8f9f9 !important;
 }
 
+@media only screen and (min-width: 20em) {
+  .top, .showcase, .blog-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+/* ===== == = === 30em (480px) === = == ===== */
+@media only screen and (min-width: 30em) {
+  .top, .showcase, .blog-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+/* ===== == = === 37.5em (600px) === = == ===== */
+@media only screen and (min-width: 37.5em) {
+  .top, .showcase, .blog-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+/* ===== == = === 48em (768px) === = == ===== */
+@media only screen and (min-width: 48em) {
+  .top, .showcase, .blog-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+/* ===== == = === 56.25em (900px) === = == ===== */
+@media only screen and (min-width: 56.25em) {
+  .top, .showcase, .blog-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+/* ===== == = === 68.75em (1100px) === = == ===== */
+@media only screen and (max-width: 1086px) {
+  .top, .mainContent .container {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+@media only screen and (min-width: 68.75em) {
+  .top, .showcase, .blog-container {
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
+/* ===== == = === 81.25em (1300px) === = == ===== */
+@media only screen and (min-width: 81.25em) {
+  .top, .showcase, .blog-container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
 @keyframes spinAround {
   from {
     transform: rotate(0deg);

@@ -1,5 +1,6 @@
 ---
-- id: fvso
+- type: case study
+  id: fvso
   name: 'FVSO: Promoting News Literacy'
   span: case study
   img: /img/fvso.png
@@ -20,9 +21,9 @@
     in the headlines and articles of popular news media sources in a way that gives
     the reader a full awareness of any potential bias they have when choosing their
     new source. NLP development is on hold for the time being due to Covid.
-- id: camlished
+- type: dev project 
+  id: camlished
   name: Camlished
-  span: dev project
   img: /img/camlished.png
   link: https://github.com/irisval/camlished
   gh: https://github.com/irisval/camlished
@@ -36,7 +37,8 @@
     in order to survive and grow their society. Features include building placement,
     resource conversion, seasonal changes, map generation, mortality rates, an interactive
     interface, and more. A Javascript port is soon to be in the works!
-- id: critterworld
+- type: dev project 
+  id: critterworld
   name: Critter World
   span: class final project
   img: /img/critterworld.png
@@ -56,23 +58,8 @@
     be logged on to by others. Users would then be able to interact with the simulation
     and do actions such as compete to kill other critter species or try to survive
     for as long as possible.
-- type: experiment
-  id: cmykpres
-  name: CMYK Presentation
-  span: dev experiment
-  img: /img/cmykpres.png
-  link: http://www.iris.codes/cmyk/
-  gh: https://github.com/irisval/website-2.0/tree/master/public/cmyk
-  skills:
-  - d3.js
-  year: '2018'
-  short_description: Interactive alternative presentation
-  long_description: My high school had a senior experience program where we spent
-    every Wednesday internship. SE culimated in a final presentation at the end of
-    the year and if I wanted to rep CMYK properly, there was no way that I could use
-    a powerpoint. Instead, I created an interactive presentation that uses d3 and
-    made it visually appealing for me to walk through my content.
-- id: fastfive
+- type: dev project 
+  id: fastfive
   name: Fast Five
   span: dev experiment
   img: https://res.cloudinary.com/dupk3ebhq/image/upload/v1559658824//img/g5/Screen_Shot_2019-06-04_at_8.46.32_AM_hb3kdf.png
@@ -90,7 +77,8 @@
     compete with each other to get the most clicks on the newsletter. Creating this
     email in Mailchimp took up a few hours each week, so I developed a web app that
     scraped the messages from the channel to automate creating entries.
-- id: lcdev
+- type: dev project 
+  id: lcdev
   name: 180° of Impact
   span: dev & design project
   img: /img/180degn.png
@@ -111,9 +99,9 @@
     that addressed these issues and made the visual identity still familiar but more
     visually appealing. I then implemented the UI as well as an admin interface with
     the flat-file CMS Grav.
-- id: gc
+- type: dev project 
+  id: gc
   name: Generation Coders
-  span: dev project
   img: /img/gc.png
   link: http://generationcoders.herokuapp.com/
   gh: https://github.com/irisval/generation-coders
@@ -128,3 +116,45 @@
     programming workshops across Bergen County, NJ. As we began hosting more and more
     workshops, we wanted to keep track of all out past/future events. I came up with
     the design and then built the website.
+- type: dev project 
+  id: hackbcaiv
+  name: hackbca iv
+  img: /img/iv.png
+  link: 2017.hackbca.com
+  gh: https://github.com/hackBCA/hackbcafour
+  skills:
+  - Flask
+  - SASS
+  - MongoDB
+  - AWS
+  year: '2017'
+  short_description: Built main website + registration portal + internal tools for
+    hackathon, uses Flask + HTML/CSS/JS + AWS
+  long_description: From its first run back in 2014, hackBCA has always had an attendance
+    size of 400~650 people which meant we needed an efficient way for event staff
+    to make sure that everything was running smoothly. For hackBCA IV, I built the
+    main website in accordance with the specific needs of that year. I built the website,
+    including the front end , application portal, and internal tools for the hackathon.
+    Note - the AWS hosting got taken down so I've reuploaded the site to a different
+    host for posterity.
+- type: dev project
+  id: nextgen
+  name: Next Gen Creators
+  img: /img/nextgen.png
+  link: https://blooming-ocean-62649.herokuapp.com/
+  gh: https://github.com/elixirlabsinc/next-gen
+  skills:
+  - Grav
+  - Twig
+  - SASS
+  year: '2017'
+  short_description: Built new website + admin interface for nonprofit Next Gen Creators
+    using PHP, HTML/CSS/JS, Grav, Twig
+  long_description: Next Gen Creators is a tech initiative in the Caribbean that provides
+    a platform for developers and future developers to engage. Elixir Labs stepped
+    in to build them their new website and I was the lead developer on that team.
+    Over the course of this project, I worked with the designer to implement all of
+    the front end and integrated the flat file cms Grav so that the Next Gen Team
+    would be able to have full customizability over their content simply through 'plug
+    & chug'. This version of the website isn't being used anymore but I've uploaded
+    it to Heroku for posterity.
