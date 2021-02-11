@@ -1,0 +1,10 @@
+---
+label: f
+hide_body: false
+fields:
+- type: boolean
+  name: page
+  label: page
+- type: text
+  name: layout
+  label: layout
