@@ -1,0 +1,36 @@
+.indexFooter {
+    margin-bottom: 2em !important;
+}
+.nonIndexFooter {
+  margin-top: 10em;
+}
+.section__footer {
+  background-color: var(--footer-gray);
+  .container__footerContents {
+    margin: 0 30px;
+    padding: 15px 20px 50px !important;
+    hr {
+      border-top: 2px solid var(--peach) !important;
+    }
+    .footer__link {
+      line-height: 1.5;
+      margin-right: 100px;
+      position: relative;
+      color: var(--stop-shop-text) !important;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+     .footer__url {
+     	color: var(--stop-shop-text) !important;
+     }
+    .made {
+      color: #E9ECEC !important;
+      font-weight: 600;
+    }
+    .linkList {
+      padding: 30px 0 0;
+      margin-left: 20px;
+    }
+  }
+
+}

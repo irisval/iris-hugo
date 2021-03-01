@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Iris Kim</title>
+    <link>/tags/javascript/</link>
+    <description>Recent content in javascript on Iris Kim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>my first post</title>
+      <link>/posts/first/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/first/</guid>
+      <description>today we&amp;rsquo;re going to be looking at this and this and that and this and that</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,17 @@
 ---
+- type: dev project
+  id: timetravellers
+  name: 'Time Travellers'
+  span: case study
+  img: /img/timetravellers.png
+  link: https://github.com/danagong/time-travelers
+  gh: https://github.com/danagong/time-travelers
+  skills:
+  - CSS3
+  - p5.js
+  year: '2021'
+  short_description: Website exhibit for Cornell Medium Design Collective.
+  long_description: Time Travellers is a visual narrative about time currently being made for Medium Design Collective's flagship Spring event. As one of the developers, I'm creating interactive animations and graphics for the narrative using CSS3 animations and p5.js.
 - type: case study
   id: fvso
   name: 'FVSO: Promoting News Literacy'

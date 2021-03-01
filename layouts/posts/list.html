@@ -4,18 +4,23 @@
 {{- partial "subpage_nav.html" . -}}
 <div class="nonIndexContent">
    <div class="container is-fluid">
-      <div class="top">
-         <h1 class="pageTitle">✍️&nbsp; accountability</h1>
-         <p class="subtag">My memory is bad. This is how I'm trying to remedy that!</p>
-      </div>
+
+       <div class="container is-fluid">
+           <div class="page__top">
+               <h1 class="page__pageTitle">✍️&nbsp; accountability</h1>
+               <p class="page__subtag">My memory is bad. This is how I'm trying to remedy that!</p>
+              <!--   <span class="updated-date">last updated 5/15/20</span> -->
+           </div>
+
+
       <div class="blog-container">
         <ol class="post-list">
 
-          <i><h1>Coming soon...</h1></i>
-           {{/*  {{ $pag := .Paginate .Pages }}
-            {{ range $pag.Pages }}
+          <i><p>Coming soon...</p></i>
+          <!--   {{ $pag := .Paginate .Pages }}
+            {{ range $pag.Pages.ByDate.Reverse }}
                 {{ partial "post-stub.html" . }}
-            {{ end }} */}}
+            {{ end }} -->
         </ol>
       </div>
   </div>

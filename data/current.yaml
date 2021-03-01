@@ -1,6 +1,13 @@
 ---
-- items:
-  - "Developing a new website for the Cornell Phonetics Lab"
-  - "Participating in <i><a href='../100doc'>#100DaysofCode</a></i> and making what time I can for personal projects!"
-  - "Preparing for the recruiting season and new school year"
-  - "Reading  <i><a href='https://www.goodreads.com/book/show/40961621-king-leopold-s-ghost?from_search=true&from_srp=true&qid=mSFfkDJb7K&rank=1'>King Leopold's Ghost</a></i>"
+- type: "Life"
+  items:
+    - "Surviving the Spring Semester! Taking ARKEO 2661: Ancient Ships and Seafaring, ASTRO 2201: The History of the Universe, COML 4861: Genres, Platforms, Media, CS 3410: Computer System Organization, CS 4450: Intro to Computer Networks, and PHIL 3535: Moses to Modernity. Extremely excited about the amount of reading I'll be doing this semester."
+    - "As always, trying to make headway on my <a style='text-decoration:underline;' href='https://www.goodreads.com/challenges/11650-2021-reading-challenge'>Goodreads yearly challenge</a>..."
+- type: "Projects"
+  items:
+    - "Redeveloping certain parts of this website to a.) reduce spaghetti SCSS and b.) make blogging a seamless process"
+    - "Developing a <a href='https://github.com/danagong/time-travelers'>visual exhibit</a> on Time for Medium Design Collective with CSS3 animations and vanilla JS!"
+- type: "Growth"
+  items:
+      - "Recruiting for summer 2021 internship/fall co-ops"
+      - "Trying to make time outside of classes to develop further C++ and JavaScript mastery - I think that because of school, I do a lot of context switching in terms of which programming languages I use primarily. I have a squirrel brain and for 2021, I'm really trying to move away from a 'jack of all trades, master of none' mentality and ensure my that programming growth is continuous."

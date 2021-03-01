@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div id="currentPage" class="page__current">
+    {{- partial "subpage_nav.html" . -}}
+    <div class="container is-fluid">
+        <div class="page__top">
+            <h1 class="page__pageTitle">⚙️  current work</h1>
+            <p class="page__subtag">Here's what I'm currently up to!</p>
+            <span class="updated-date">last updated 5/15/20</span>
+        </div>
+        <div class="blog-container">
+            <table class="table is-fullwidth">
+                <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Link</th>
+                    <th>Notes</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {{ range .Site.Data.links }}
+                <tr>
+                    <td>
+                        {{ .type }}
+                    </td>
+                    <td>
+                        <p>{{ .link | safeHTML  }}<p>
+                    </td>
+                    <td>
+                        <p>{{ .notes }}<p>
+                    </td>
+                </tr>
+                {{ end }}
+
+
+                </tbody>
+            </table>
+
+
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="nonIndexFooter">
+    {{- partial "footer.html" . -}}
+</div>
+{{ end }}

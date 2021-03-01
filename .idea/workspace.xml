@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6e3aeda-105d-4a5b-9c3b-8e05cc04cbe6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/posts/second.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/links.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/_default/bookmarks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/index_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/index_nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/layout/_blogsingle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/layout/_errortracker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/layout/_indexnav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/layout/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/pages/_bloglist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/pages/_bookmark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/pages/_community.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/pages/_current.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/pages/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/pages/_projects.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/pages/_work.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/vendors/_bulmacustom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/100doc/100doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/100doc/100doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/current.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/current.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/work.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/work.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/community.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/current.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/current.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/bookmarks/bookmarks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/subpage_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/subpage_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/posts/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/posts/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/posts/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/posts/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/files/2020Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/static/files/2020Resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/06f115eac91f664b04eaa3e4b4e40fb2117a6a87/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/06f115eac91f664b04eaa3e4b4e40fb2117a6a87/columns.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/06f115eac91f664b04eaa3e4b4e40fb2117a6a87/tiles.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/07ffe5c3daa836ab1bec37de77c354f5e423b364/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/07ffe5c3daa836ab1bec37de77c354f5e423b364/columns.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/07ffe5c3daa836ab1bec37de77c354f5e423b364/tiles.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/3f5abad5afbdcff8e8ba27e073e1df7724532077/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/3f5abad5afbdcff8e8ba27e073e1df7724532077/footer.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/3f5abad5afbdcff8e8ba27e073e1df7724532077/hero.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/3f5abad5afbdcff8e8ba27e073e1df7724532077/section.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4de2e98e16346430126c5aaddf5121ee22e84d27/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4de2e98e16346430126c5aaddf5121ee22e84d27/animations.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4de2e98e16346430126c5aaddf5121ee22e84d27/controls.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4de2e98e16346430126c5aaddf5121ee22e84d27/derived-variables.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4de2e98e16346430126c5aaddf5121ee22e84d27/functions.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4de2e98e16346430126c5aaddf5121ee22e84d27/initial-variables.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4de2e98e16346430126c5aaddf5121ee22e84d27/mixins.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/box.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/button.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/container.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/content.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/form.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/icon.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/image.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/notification.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/other.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/progress.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/table.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/tag.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/4f596d7bd53a64fff3709dcf12794147609d0a84/title.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/breadcrumb.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/card.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/dropdown.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/level.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/media.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/menu.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/message.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/modal.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/navbar.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/pagination.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/panel.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/67978ab3ad6742f0bc69cbcc01195dc9cb8ae618/tabs.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/breadcrumb.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/card.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/dropdown.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/level.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/media.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/menu.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/message.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/modal.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/navbar.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/pagination.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/panel.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/72478b1391bc9471388a74fd751e791c6bcdfa49/tabs.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/box.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/button.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/container.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/content.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/form.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/icon.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/image.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/notification.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/other.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/progress.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/table.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/tag.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8913a8c663003f966d7a5a00bbe240c1173902ec/title.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8a69efa6b4286458387d1d649873faf29cf156b1/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8a69efa6b4286458387d1d649873faf29cf156b1/animations.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8a69efa6b4286458387d1d649873faf29cf156b1/controls.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8a69efa6b4286458387d1d649873faf29cf156b1/derived-variables.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8a69efa6b4286458387d1d649873faf29cf156b1/functions.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8a69efa6b4286458387d1d649873faf29cf156b1/initial-variables.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/8a69efa6b4286458387d1d649873faf29cf156b1/mixins.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/921184b50476520d91347add2f1974430f8ebf8c/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/921184b50476520d91347add2f1974430f8ebf8c/generic.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/921184b50476520d91347add2f1974430f8ebf8c/helpers.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/921184b50476520d91347add2f1974430f8ebf8c/minireset.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/ad084a177f3308e78fe0ec575c737063d27f11a1/main.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b64a035a22ec0494abebed1091fb678f2c505ad4/main.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d82f1678143e99f8bca2cfa4db39010e7ae0a353/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d82f1678143e99f8bca2cfa4db39010e7ae0a353/generic.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d82f1678143e99f8bca2cfa4db39010e7ae0a353/helpers.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d82f1678143e99f8bca2cfa4db39010e7ae0a353/minireset.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/f02e6e7d69236fd4ff2122f8765674563fa3e6d7/_all.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/f02e6e7d69236fd4ff2122f8765674563fa3e6d7/footer.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/f02e6e7d69236fd4ff2122f8765674563fa3e6d7/hero.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/f02e6e7d69236fd4ff2122f8765674563fa3e6d7/section.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/bulma.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/css/bulma.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/css/bulma.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/css/bulma.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/base/_all.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/base/generic.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/base/helpers.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/base/minireset.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/_all.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/breadcrumb.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/card.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/dropdown.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/level.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/menu.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/message.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/modal.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/navbar.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/pagination.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/panel.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/components/tabs.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/_all.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/box.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/button.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/container.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/content.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/form.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/icon.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/image.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/notification.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/other.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/progress.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/table.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/tag.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/elements/title.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/grid/_all.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/grid/columns.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/grid/tiles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/layout/_all.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/layout/footer.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/layout/hero.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/layout/section.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/utilities/_all.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/utilities/animations.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/utilities/controls.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/utilities/derived-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/utilities/functions.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/utilities/initial-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/bulma/sass/utilities/mixins.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/main.scss" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nu0NrDVXTRzCaEhKKKe1vlWCUv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6e3aeda-105d-4a5b-9c3b-8e05cc04cbe6" name="Default Changelist" comment="" />
+      <created>1612224631006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612224631006</updated>
+      <workItem from="1612224632109" duration="363000" />
+      <workItem from="1612305890500" duration="17820000" />
+      <workItem from="1612926417055" duration="5431000" />
+      <workItem from="1613074315018" duration="6378000" />
+      <workItem from="1613142646469" duration="127000" />
+      <workItem from="1613689576207" duration="7972000" />
+      <workItem from="1614012888384" duration="68000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612395198142">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1612395198142" />
+    <state x="454" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613701382182">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="454" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1613701382182" />
+    <state x="371" y="225" width="698" height="675" key="EditFileWatcherDialog" timestamp="1612307371880">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="371" y="225" width="698" height="675" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1612307371880" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1613078405765">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1613078405765" />
+    <state x="77" y="178" key="SettingsEditor" timestamp="1613705700551">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="77" y="178" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1613705700551" />
+    <state x="516" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612313490666">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="516" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1612313490666" />
+    <state x="466" y="320" width="598" height="580" key="find.popup" timestamp="1613705431160">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="466" y="320" width="598" height="580" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1613705431160" />
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1613707452839">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1613707452839" />
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1613703422796" />
+  </component>
+</project>

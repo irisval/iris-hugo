@@ -1,0 +1,26 @@
+#currentPage {
+  .showcase {
+    box-shadow: 0 0.375em 2.5em rgb(0 0 0 / 20%);
+    background-color: #f8f9f9 !important;
+    border-radius: 30px;
+    padding: 1em;
+  }
+  .current__item {
+    //box-shadow: 0 0.375em 2.5em rgb(0 0 0 / 20%);
+    //padding: 1em;
+    //text-align: center;
+    //background-color: #f8f9f9 !important;
+    //border-radius: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #8f9fa9 !important;
+    font-size: 1.05rem;
+    margin-top: 1.5rem;
+    li {
+      margin-left: 1rem;
+    }
+    .tag {
+      margin-bottom: 0.5rem;
+    }
+    //margin: 10px 0 25px;
+  }
+}

@@ -1,0 +1,199 @@
+@use '../vendors/_bulmacustom.scss' as bulma;
+
+#indexPage {
+  .section {
+    margin: 1.6em 1.8em 0;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+  .section__intro {
+    background-color: var(--gray-blue);
+    .container {
+      margin-top: 2.5em !important;
+    }
+    #headshot__img {
+      border-radius: 50%;
+      margin-bottom: 1.3rem;
+    }
+    .headshot__tag {
+      font-size: 13px;
+      color: var(--index-icon);
+    }
+    @media (max-width: 768px) {
+      #headshot__img {
+        width: 29%;
+        margin: 0 auto;
+        margin-bottom: 0.7em;
+      }
+    }
+    .icon-link, .icon-link:hover {
+      color: var(--lightest-blue) !important;
+    }
+    .bio {
+      margin-left: 4em;
+      .title {
+        font-family: bulma.$lato;
+        font-weight: 600 !important;
+        color: var(--peach) !important;
+      }
+      .title-name {
+        margin-bottom: 0.85rem !important;
+      }
+      .subtitle {
+        font-family: bulma.$ss, sans-serif;
+        margin-top: 1.4em;
+        margin-bottom: 0.7rem !important;
+        color: var(--index-subtitle) !important;
+        font-size: 1.15rem;
+        line-height: 1.65 !important;
+        a {
+          color: var(--index-subtitle);
+          text-decoration: underline;
+        }
+      }
+      .wavy {
+        width: 6.4em !important;
+      }
+    }
+  }
+  .section__shop {
+    padding-top: 20px;
+    background-color: var(--stop-shop-bg) !important;
+    .container__portfolioSection {
+      margin: 1em 32px;
+    }
+    .portfolioSection {
+      &__title {
+        color: var(--light-gray) !important;
+        font-size: 2rem;
+      }
+      &__description {
+        font-family: bulma.$ss, sans-serif;
+        margin-bottom: 30px;
+        color: var(--cool-blue) !important;
+      }
+      .project {
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        a {
+          color: var(--lightest-blue);
+        }
+        .project__overlay {
+          background: rgba(0, 0, 0, 0.7);
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          opacity: 0;
+          -webkit-transition: all 0.4s ease-in-out 0s;
+          -moz-transition: all 0.4s ease-in-out 0s;
+          transition: all 0.4s ease-in-out 0s;
+        }
+        .image {
+          position: inherit !important;
+        }
+      }
+      .project:hover .project__overlay {
+        opacity: 1;
+      }
+      .project__details {
+        position: absolute;
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+        color: var(--white) !important;
+        .title {
+          margin-bottom: 0.3rem !important;
+        }
+        h3 {
+          font-weight: 600;
+          /*margin-bottom: 0.2em;*/
+        }
+      }
+      .project:hover .project__details {
+        /*	top: 50%;*/
+        left: 50%;
+        opacity: 1;
+      }
+      .project__icon {
+        background: var(--gray-blue);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 2.3rem;
+        height: 2.3rem;
+        text-align: center;
+        .project__icon--vcenter {
+          height: 100%;
+        }
+        .project__icon--vcenter,
+        .i {
+          display: inline-block;
+          vertical-align: middle;
+        }
+        /*todo: figure out why icon isnt horizontally centering*/
+      }
+      .project__description {
+        font-size: 0.9rem !important;
+      }
+      .project__name {
+        font-weight: 600;
+        padding-top: 0.5rem;
+        color: var(--stop-shop-text) !important;
+      }
+      .project__type {
+        font-size: 0.75rem !important;
+      }
+    }
+    .nav__controls {
+      p {
+        color: var(--cool-blue);
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      display: flex;
+      font-size: 40px;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 15px;
+      a {
+        color: var(--light-gray) !important;
+        font-weight: 700;
+        margin: 5px 10px 0;
+        font-size: 1rem;
+      }
+    }
+  }
+  .section__skills {
+    background-color: var(--skills-gray) !important;
+    .skillType {
+      color: var(--footer-gray);
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    .skills {
+      color: #8f9fa9;
+    }
+    .skillSection {
+      margin: 30px 0 0;
+    }
+  }
+}
+

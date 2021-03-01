@@ -1,43 +1,28 @@
 {{ define "main" }}
-<div class="currentPage showcasePage">
-{{- partial "subpage_nav.html" . -}}
-<div class="nonIndexContent">
-   <div class="container is-fluid">
-      <div class="top">
-         <h1 class="pageTitle">⚙️&nbsp; current work</h1>
-         <p class="subtag">Here's what I'm currently up to!</p>
-      </div>
+<div id="currentPage" class="page__current">
+    {{- partial "subpage_nav.html" . -}}
+    <div class="container is-fluid">
+        <div class="page__top">
+            <h1 class="page__pageTitle">⚙️  current work</h1>
+            <p class="page__subtag">Here's what I'm currently up to!</p>
+            <span class="updated-date">last updated 5/15/20</span>
+        </div>
       <div class="showcase">
-
-         <div class="mainContent todos">
-            <section class="hero is-secondary">
-               <h1 id="stopShop">last updated 5/15/20</h1>
-               <div class="container is-fluid">
-           <div class="columns">
-              <div class="column">
-                {{ range .Site.Data.current }}
-                {{ range .items }}
-                <div class="item"><p><span>#</span>{{ . | safeHTML }}</p>
-                </div>
+          <div class="container is-fluid">
+              {{ range .Site.Data.current }}
+              <div class="current__item">
+                  <h3>{{ .type }}</h3>
+                  {{ range .items }}
+                  <li>{{ . | safeHTML }}</li>
                   {{ end }}
-                {{ end }}
               </div>
-            
-             </div>
-          </section>
-         </div>
- 
-         <!-- 
-            <div class="columns is-multiline is-vcentered">
-            
-            <div class="column is-two-thirds-tablet is-half-desktop">
-            
-            </div>
-            </div> -->
+              {{ end }}
+          </div>
       </div>
-   </div>
-   <div class="nonIndexFooter">
-      {{- partial "footer.html" . -}}
-   </div>
+  </div>
+</div>
+
+<div class="nonIndexFooter">
+  {{- partial "footer.html" . -}}
 </div>
 {{ end }}

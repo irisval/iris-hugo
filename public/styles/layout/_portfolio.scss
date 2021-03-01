@@ -1,0 +1,104 @@
+@use '../vendors/_bulmacustom.scss' as bulma;
+
+.page__portfolio {
+
+  .portfolio__main {
+    //display: flex;
+    //flex-direction: row;
+  }
+  .portfolio__nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    a {
+      font-family: bulma.$lato;
+      &:hover {
+       font-weight: 400;
+      }
+      color: var(--gray-blue);
+      opacity: 0.8;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+  }
+  .showcase {
+    .portfolio__piece {
+      box-shadow: 0 0.375em 2.5em rgba(0, 0, 0, 0.20);
+      padding-bottom: 35px;
+      margin: 0 30px 4.5em;
+      background-color: #f8f9f9 !important;
+      border-radius: 30px;
+      .columns {
+        margin-left: 0.6em;
+      }
+      .column:nth-of-type(2) {
+        //margin: auto 0;
+      }
+      .project__img {
+        display: flex;
+        margin: 0.2em 1em;
+        img {
+          border-radius: 5px;
+        }
+      }
+      .topLine {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .type {
+          display: block;
+        }
+        .stopShop {
+          margin-right: 3rem;
+        }
+        span {
+          font-size: 12px;
+          font-weight: 900;
+          color: #727f87;
+        }
+      }
+
+      .project__name {
+        color: #808fa5;
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-align: left;
+        //margin: 1.2em 0 0.8em 1em;
+      }
+      .project__shortd {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #8f9fa9 !important;
+        margin: 10px 0 25px;
+      }
+      .gh {
+        display: inline-block;
+        color: #727f87
+      }
+      .go {
+        vertical-align: top;
+        display: inline-block;
+        float: right;
+        font-weight: 600;
+        font-size: 25px;
+        margin-bottom: 8px;
+        color: #bac4ca !important;
+      }
+      .has-shadow {
+        box-shadow: 0 0.375em 2.5em rgba(0, 0, 0, 0.20);
+      }
+      .image {
+        max-width: 33.33%;
+      }
+      .box {
+        border-radius: 1px;
+        box-shadow: none;
+        background-color: #f8f9f9 !important;
+      }
+    }
+
+  }
+
+
+
+}

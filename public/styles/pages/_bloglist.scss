@@ -1,0 +1,35 @@
+#blogPage {
+  .post-stub:first-of-type {
+    border-top: 2px dotted #E9ECEC;
+  }
+  .post-stub {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted #E9ECEC;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    margin-bottom: 1em;
+    .post-stub-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      text-decoration: underline var(--peach);
+      color: #4a4a4a !important;
+    }
+    time {
+      font-size: 0.8rem;
+    }
+    .post-stub-summary {
+      margin-top: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+#postSinglePage {
+  .post__tags {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    width: 100%;
+    border-bottom:  2px dotted #E9ECEC;
+  }
+}

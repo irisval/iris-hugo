@@ -1,0 +1,129 @@
+:root {
+  --body: #4a4a4a;
+  --peach: #ffd7a9;
+  --white: #fff;
+  --gray-blue: #89a0bf;
+  --light-blue: #91cff9;
+  --lightest-blue:  #e9f5fd;
+  --cool-blue: #8f9fa9;
+  --index-icon:  #e9f5fd;
+  --index-subtitle: #e0e0e0;
+  --stop-shop-bg: #E9ECEC;
+  --stop-shop-text: #474747;
+  --light-gray: #bac4ca;
+  --skills-gray: #f8f9f9;
+  --footer-gray: #acb9c3;;
+}
+
+html[data-theme='dark'] {
+  --peach: black;
+  --white: black;
+  --gray-blue: black;
+  --light-blue: black;
+  --lightest-blue:  black;
+  --index-icon:  black;
+  --index-subtitle: black;
+  --stop-shop-bg: black;
+  --stop-shop-text: black;
+  --light-gray: black;
+  --cool-blue: black;
+  --skills-gray: black;
+  --footer-gray: black;
+}
+
+.card {
+  box-shadow: none !important;
+}
+
+.stopShop {
+  color: var(--stop-shop-text) !important;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.page__top {
+  margin: 100px 200px;
+
+  .page__pageTitle {
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .page__subtag {
+    color: #bac4ca !important;
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 1.65 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+
+@media only screen and (min-width : 20em) {
+  .page__top, .showcase, .blog-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+/* ===== == = === 30em (480px) === = == ===== */
+
+@media only screen and (min-width : 30em) {
+  .page__top, .showcase, .blog-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+/* ===== == = === 37.5em (600px) === = == ===== */
+
+@media only screen and (min-width: 37.5em) {
+  .page__top, .showcase, .blog-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+/* ===== == = === 48em (768px) === = == ===== */
+
+@media only screen and (min-width : 48em) {
+  .page__top, .showcase, .blog-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+/* ===== == = === 56.25em (900px) === = == ===== */
+
+@media only screen and (min-width : 56.25em) {
+  .page__top, .showcase, .blog-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+/* ===== == = === 68.75em (1100px) === = == ===== */
+
+@media only screen and (max-width : 1086px) {
+  .page__top, .mainContent .container {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media only screen and (min-width : 68.75em) {
+  .page__top, .showcase, .blog-container {
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
+
+/* ===== == = === 81.25em (1300px) === = == ===== */
+
+@media only screen and (min-width : 81.25em) {
+  .page__top, .showcase, .blog-container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}

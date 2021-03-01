@@ -1,16 +1,20 @@
 ---
 - employer: Cornell Phonetics Laboratory
+  short_name: CPL
+  id: cpl
   img: /img/cpl.png
   link: "/work"
   skills:
   - Figma
   - Drupal
+  - Express
   - SASS
   timeframe: Current
-  short_description: Redesigning and developing new site.
-  long_description: Currently doing a complete redesign of the current website and
-    implementing both the frontend and backend with Drupal.
+  short_description: Redesigned and developed new site.
+  long_description: I've been the main developer of the Cornell Phonetics Laboratory for the past year. My primary projects have consisted of designing and developing the current website, conf.ling.cornell.edu, as well as a speech errors curation web app for Ling 1101 classes.
 - employer: Yang-Tan Institute on Employment and Disability
+  short_name: Yang-Tan Institute
+  id: yti
   img: /img/yti.jpg
   link: https://www.yti.cornell.edu/
   skills:
@@ -26,6 +30,8 @@
     roughly three hours of manual labor and a custom newsletter service with features
     such as schedule sending emails.
 - employer: CMYK
+  short_name: CMYK
+  id: cmyk
   img: /img/cmyk.png
   skills:
   - HTML/SASS
@@ -42,6 +48,8 @@
     I developed an internal tool that scraped the team's slack and automated the creation
     of CMYK's weekly newsletter.
 - employer: Elixir Labs
+  short_name: Elixir Labs
+  id: elixir
   img: /img/elixirlabs.png
   link: http://www.elixirlabs.org/
   skills:
@@ -57,6 +65,8 @@
     on the website redesign for Next Gen Coders, a tech-ed nonprofit based in the
     Carbbean.
 - employer: Sooryen Technologies
+  short_name: Sooryen
+  id: sooryen
   img: /img/sooryen.png
   link: http://www.sooryen.com/
   timeframe: 2015-2016

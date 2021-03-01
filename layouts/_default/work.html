@@ -1,44 +1,66 @@
 {{ define "main" }}
-<div class="showcasePage">
-{{- partial "subpage_nav.html" . -}}
-<div class="nonIndexContent">
-   <div class="container is-fluid">
-      <div class="top">
-         <h1 class="pageTitle">👩‍💼&nbsp; work history</h1>
-         <p class="subtag">Awesome places I've been able to work at:</p>
-      </div>
-      <div class="showcase">
-          {{ range .Site.Data.work }}
-         <div class="mainContent">
-            <section class="hero is-secondary">
-               <h1 id="stopShop">{{ .timeframe }}</h1>
-               <div class="container is-fluid">
-                  <div class="section__preview">
-                     <div class="project__info">
-                        <h1>{{ .Site.baseurl }}</h1>
-                      <a href="{{ .link }}"><img src="{{ .Site.baseurl }}{{ .img }}" alt="Image"></a>
-                        <div class="topLine" style="text-align: center;">
-                           <p class="project__name">&nbsp;&nbsp;&nbsp;{{ .employer }}</p>
+<div id="workShowcasePage" class="page__portfolio">
+    {{- partial "subpage_nav.html" . -}}
+    <div class="container is-fluid">
+        <div class="page__top">
+            <h1 class="page__pageTitle">👩‍💼&nbsp; work history</h1>
+            <p class="page__subtag">Awesome places I've been able to work at:</p>
+        </div>
+
+        <div class="portfolio_main">
+            <!--<div class="portfolio__nav">
+                {{ range .Site.Data.work }}
+                <a href="/work/#{{ .id }}">&nbsp;{{ .short_name }}</a>
+                {{ end }}
+            </div>-->
+
+            <div class="showcase">
+                {{ range .Site.Data.work }}
+                <div id="{{ .id }}" class="portfolio__piece">
+                    <div class="columns is-desktop ">
+                        <div class="column">
+                            <div class="topLine">
+                                <a href="{{ .link }}" class="project__name">{{ .employer }}</a>
+                                <p class="timeframe">{{ .timeframe }}</p>
+                            </div>
                         </div>
-                        <p class="project__shortd">{{ .long_description }}</p>
-                        <hr>
-                        <div class="project__tags">
-                            {{ range .skills }}
-                           <span class="tag is-light">{{ . }}</span>
-                             {{ end }}
+                    </div>
+
+                    <div class="columns is-desktop ">
+                        <div class="column is-two-fifths-desktop">
+                                <a class="project__img" href="{{ .link }}"><img src="{{ .Site.baseurl }}{{ .img }}" alt="Image"></a>
                         </div>
-                        <a href="{{ .link }}" class="go">⟶</a>
-                     </div>
-                     
-                  </div>
-               </div>
-            </section>
-         </div>
-         {{ end }}
-      </div>
-   </div>
-   <div class="nonIndexFooter">
-      {{- partial "footer.html" . -}}
-   </div>
+                        <div class="column is-three-fifths-desktop">
+                            <div class="container is-fluid">
+                                <div class="section__preview">
+                                    <div class="project__info">
+
+                                        <p class="project__shortd">{{ .long_description }}</p>
+
+
+                                        <div class="project__tags">
+                                            {{ range .skills }}
+                                            <span class="tag is-light">{{ . }}</span>
+                                            {{ end }}
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
 </div>
+
+
+
+<div class="nonIndexFooter">
+    {{- partial "footer.html" . -}}
+</div>
+
 {{ end }}
